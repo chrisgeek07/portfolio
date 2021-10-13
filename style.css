@@ -64,7 +64,7 @@ a {
 }
 
 .list-inline i {
-    font-size: 40px;
+    font-size: 30px;
     transition: all 200ms ease-in-out;
 }
 
@@ -72,9 +72,19 @@ ul {
     padding: 0;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.social-name {
+    font-size: 10px;
+    margin: 0;
+}
+
 .list-inline > li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 10px;
     color: #6B72E1;
 }
 
