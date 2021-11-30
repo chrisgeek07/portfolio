@@ -116,7 +116,7 @@ ul {
 }
 
 .btn-blue-s:hover {
-    background-color: #E0D146;
+    transform: scale(0.8);
     color: #ffffff;
 }
 
@@ -152,8 +152,16 @@ i:hover {
     justify-content: flex-end;
 }
 
-.show-card-one {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(https://res.cloudinary.com/dcz8avk6a/image/upload/v1637745893/production/card-home_gqllfm.jpg);
+.one {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url();
+}
+
+.two {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url();
+}
+
+.three {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url();
 }
   
 .show-card h3 {
