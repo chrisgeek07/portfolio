@@ -54,7 +54,7 @@ a {
 }
 
 .container {
-    width: 700px;
+    max-width: 1000px;
     margin: 40px auto;
     margin-top: 40px;
 }
@@ -106,6 +106,20 @@ ul {
     transition: all 200ms ease-in-out;
 }
 
+.btn-blue-s {
+    background-color: #6B72E1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color:white;
+    font-weight: 700;
+    transition: all 200ms ease-in-out;
+}
+
+.btn-blue-s:hover {
+    background-color: #E0D146;
+    color: #ffffff;
+}
+
 a:hover {
     color: #f5f5f5;
 }
@@ -119,6 +133,34 @@ i:hover {
     color: #ffffff;
 }
 
+.show-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-card {
+
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    background-color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.show-card-one {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(https://res.cloudinary.com/dcz8avk6a/image/upload/v1637745893/production/card-home_gqllfm.jpg);
+}
+  
+.show-card h3 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
 
 @media (max-width: 960px) {
     .container {
