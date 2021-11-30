@@ -153,15 +153,15 @@ i:hover {
 }
 
 .one {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url();
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(/images/watchlist.png);
 }
 
 .two {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url();
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(/images/rentanisland.png);
 }
 
 .three {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url();
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(/images/rentanisland.png);
 }
   
 .show-card h3 {
@@ -183,6 +183,10 @@ i:hover {
   @media (max-width: 540px) {
     .container {
       width: 300px;
+    }
+
+    .show-card-container {
+        flex-direction: column;
     }
 
     .list-inline i {
