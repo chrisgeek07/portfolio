@@ -107,10 +107,17 @@ ul {
     transition: all 200ms ease-in-out;
 }
 
+.head-proj {
+    margin: 0;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
 
 .show-card-actions .btn-blue-card {
     background-color: #6B72E1;
-    padding: 10px 15px;
+    padding: 6px 12px;
     border-radius: 4px;
     color:white;
     font-weight: 400;
