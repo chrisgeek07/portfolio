@@ -157,11 +157,11 @@ i:hover {
 }
 
 .two {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(/images/rentanisland.png);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(/images/rent-island.png);
 }
 
 .three {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(/images/watchlist.png);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(/images/easytrip-app.png);
 }
   
 .show-card h3 {
