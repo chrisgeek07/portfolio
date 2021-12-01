@@ -107,17 +107,18 @@ ul {
     transition: all 200ms ease-in-out;
 }
 
-.btn-blue-s {
+
+.show-card-actions .btn-blue-card {
     background-color: #6B72E1;
     padding: 10px 15px;
     border-radius: 4px;
     color:white;
-    font-weight: 700;
+    font-weight: 400;
     transition: all 200ms ease-in-out;
 }
 
-.btn-blue-s:hover {
-    transform: scale(0.8);
+.show-card-actions .btn-blue-card:hover {
+    background-color: #414ac9;
     color: #ffffff;
 }
 
