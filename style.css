@@ -26,10 +26,6 @@ span {
     letter-spacing: 2px;
 }
 
-h2 {
-    font-size: 20px;
-    color: #6B72E1;
-}
 
 p {
     margin-bottom: 40px; 
@@ -124,6 +120,7 @@ ul {
     transition: all 200ms ease-in-out;
 }
 
+
 .show-card-actions .btn-blue-card:hover {
     background-color: #414ac9;
     color: #ffffff;
@@ -186,24 +183,54 @@ i:hover {
 
 @media (max-width: 960px) {
     .container {
-      width: 700px;
+      width: 800px;
+    }
+
+    .show-card-actions .btn-blue-card {
+        font-size: 14px;
     }
   }
+
   @media (max-width: 720px) {
     .container {
       width: 500px;
-    }
-  }
-  @media (max-width: 540px) {
-    .container {
-      width: 300px;
     }
 
     .show-card-container {
         flex-direction: column;
     }
 
+    .show-card {
+        margin-bottom: 10px;
+        height: 300px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .container {
+      width: 325px;
+    }
+
+    .show-card-container {
+        flex-direction: column;
+    }
+
+    .show-card {
+        margin-bottom: 10px;
+    }
+
+    .show-card-actions .btn-blue-card {
+        font-size: 14px;
+    }
+
     .list-inline i {
-        font-size: 30px;
+        font-size: 20px;
       }
+    .social-name {
+          display: none;
+    }
+
+    .social h2 {
+      font-size: 20px;
+    }
   }
