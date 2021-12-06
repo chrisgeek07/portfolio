@@ -208,6 +208,12 @@ i:hover {
     letter-spacing: 1px;
     border: 1px solid white;
     border-radius: 4px;
+    transition: all 200ms ease-in-out;
+}
+
+.contact-btn:hover {
+    border: 1px solid #6B72E1;
+    color: #6B72E1;
 }
 
 @media (max-width: 960px) {
