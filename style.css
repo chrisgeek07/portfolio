@@ -187,6 +187,49 @@ i:hover {
     color: white;
 }
 
+
+.contact-card {
+    border-radius: 4px;
+    background: #212121;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact-card .contact-txt {
+    font-size: 22px;
+}
+
+.contact-txt {
+    position: relative;
+}
+
+.contact-txt:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 130px;
+    background-color: #6B72E1;
+    height: 60px;
+    width: 7px;
+}
+
+.contact-btn {
+    padding: 10px 24px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+}
+
+.contact-btn:hover {
+    border: 1px solid #6B72E1;
+    color: #6B72E1;
+}
+
 @media (max-width: 960px) {
     .container {
       width: 800px;
