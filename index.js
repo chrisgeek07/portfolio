@@ -18,3 +18,13 @@ let tl = gsap.timeline({
 });
 
 tl.from('.show-card', { y: -100, opacity: 0, duration: 1, ease: 'power4.out', stagger: 0.6})
+
+
+let tl2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.contact-card',
+    }
+});
+
+tl2.from('.contact-txt', { y: -50, opacity: 0, duration: 1, ease: 'power4.out'})
+tl2.from('.contact-btn', { y: -50, opacity: 0, duration: 1, ease: 'power4.out', delay: 0.2})
