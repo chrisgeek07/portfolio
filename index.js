@@ -27,4 +27,4 @@ let tl2 = gsap.timeline({
 });
 
 tl2.from('.contact-txt', { y: -50, opacity: 0, duration: 1, ease: 'power4.out'})
-tl2.from('.contact-btn', { y: -50, opacity: 0, duration: 1, ease: 'power4.out', delay: 0.2})
+tl2.from('.contact-btn', { y: -50, opacity: 0, duration: 1, ease: 'power3.out', delay: 0.2})
