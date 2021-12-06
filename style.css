@@ -201,6 +201,20 @@ i:hover {
     font-size: 22px;
 }
 
+.contact-txt {
+    position: relative;
+}
+
+.contact-txt:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 130px;
+    background-color: #6B72E1;
+    height: 60px;
+    width: 7px;
+}
+
 .contact-btn {
     padding: 10px 24px;
     color: white;
