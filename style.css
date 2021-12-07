@@ -265,6 +265,10 @@ i:hover {
         height: 105px;
         width: 5px;
     }
+
+    .head-proj {
+        font-size: 24px;
+    }
   }
 
   @media (max-width: 540px) {
@@ -300,5 +304,9 @@ i:hover {
         left: -20px;
         height: 145px;
         width: 5px;
+    }
+
+    .head-proj {
+        font-size: 18px;
     }
   }
