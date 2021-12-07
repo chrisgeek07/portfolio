@@ -263,6 +263,7 @@ i:hover {
         top: -5px;
         left: -20px;
         height: 105px;
+        width: 5px;
     }
   }
 
@@ -292,5 +293,12 @@ i:hover {
 
     .social h2 {
       font-size: 20px;
+    }
+
+    .contact-txt:before {
+        top: -5px;
+        left: -20px;
+        height: 145px;
+        width: 5px;
     }
   }
