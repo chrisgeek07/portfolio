@@ -238,6 +238,11 @@ i:hover {
     .show-card-actions .btn-blue-card {
         font-size: 14px;
     }
+
+    .contact-txt:before {
+        top: -5px;
+        left: 40px;
+    }
   }
 
   @media (max-width: 720px) {
@@ -252,6 +257,17 @@ i:hover {
     .show-card {
         margin-bottom: 10px;
         height: 300px;
+    }
+
+    .contact-txt:before {
+        top: -5px;
+        left: -20px;
+        height: 105px;
+        width: 5px;
+    }
+
+    .head-proj {
+        font-size: 24px;
     }
   }
 
@@ -281,5 +297,20 @@ i:hover {
 
     .social h2 {
       font-size: 20px;
+    }
+
+    .contact-txt:before {
+        top: -5px;
+        left: -20px;
+        height: 145px;
+        width: 5px;
+    }
+
+    .head-proj {
+        font-size: 18px;
+    }
+
+    .contact-btn {
+        font-size: 14px;
     }
   }

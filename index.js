@@ -18,6 +18,7 @@ let tl = gsap.timeline({
 });
 
 tl.from('.show-card', { y: -100, opacity: 0, duration: 1, ease: 'power4.out', stagger: 0.6})
+tl.from('.social', { y: -50, opacity: 0, duration: 1, ease: 'power1.out', stagger: 0.3})
 
 
 let tl2 = gsap.timeline({
