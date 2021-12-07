@@ -258,6 +258,12 @@ i:hover {
         margin-bottom: 10px;
         height: 300px;
     }
+
+    .contact-txt:before {
+        top: -5px;
+        left: -20px;
+        height: 105px;
+    }
   }
 
   @media (max-width: 540px) {
