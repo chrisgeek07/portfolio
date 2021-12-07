@@ -238,6 +238,11 @@ i:hover {
     .show-card-actions .btn-blue-card {
         font-size: 14px;
     }
+
+    .contact-txt:before {
+        top: -5px;
+        left: 40px;
+    }
   }
 
   @media (max-width: 720px) {
